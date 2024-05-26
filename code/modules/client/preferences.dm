@@ -494,7 +494,7 @@ var/global/list/preferences_datums = list()
 		socks = 0
 	character.socks = socks
 
-	if(backbag > 5 || backbag < 1)
+	if(backbag > backbaglist.len || backbag < 1)
 		backbag = 1 //Same as above
 	character.backbag = backbag
 	character.use_skirt = use_skirt
