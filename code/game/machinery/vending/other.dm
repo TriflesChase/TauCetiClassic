@@ -269,16 +269,16 @@
 		/obj/item/toy/syndicateballoon = 6,
 	)
 	var/list/kits = list(
-		"Scout kit" = /obj/item/weapon/storage/backpack/dufflebag/nuke/scout,
-		"Sniper kit" = /obj/item/weapon/storage/backpack/dufflebag/nuke/sniper,
-		"Assaultman kit" = /obj/item/weapon/storage/backpack/dufflebag/nuke/assaultman,
-		"Bomber kit" = /obj/item/weapon/storage/backpack/dufflebag/nuke/demo,
-		"Melee kit" = /obj/item/weapon/storage/backpack/dufflebag/nuke/melee,
-		"Hacker kit" = /obj/item/weapon/storage/backpack/dufflebag/nuke/hacker,
-		"Machinengunner kit" = /obj/item/weapon/storage/backpack/dufflebag/nuke/heavygunner,
-		"Field Medic kit" = /obj/item/weapon/storage/backpack/dufflebag/nuke/medic,
-		"Chemical Fighter Kit" = /obj/item/weapon/storage/backpack/dufflebag/nuke/chemwarfare,
-		"Custom kit" =  /obj/item/weapon/storage/backpack/dufflebag/nuke/custom,
+		"Scout kit" = /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/scout,
+		"Sniper kit" = /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/sniper,
+		"Assaultman kit" = /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/assaultman,
+		"Bomber kit" = /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/demo,
+		"Melee kit" = /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/melee,
+		"Hacker kit" = /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/hacker,
+		"Machinengunner kit" = /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/heavygunner,
+		"Field Medic kit" = /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/medic,
+		"Chemical Fighter Kit" = /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/chemwarfare,
+		"Custom kit" =  /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/custom,
 	)
 	var/static/list/selections_kits
 
