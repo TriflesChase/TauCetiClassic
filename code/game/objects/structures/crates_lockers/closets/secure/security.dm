@@ -36,6 +36,7 @@
 	new /obj/item/clothing/under/rank/capcamsole(src)
 	new /obj/item/device/remote_device/captain(src)
 	new /obj/item/airbag(src)
+	new /obj/item/weapon/storage/backpack/duffelbag/captain
 	new /obj/item/weapon/storage/pouch/pistol_holster(src)
 	new /obj/item/weapon/storage/lockbox/medal/captain(src)
 	if(SSenvironment.envtype[z] == ENV_TYPE_SNOW)
@@ -149,7 +150,6 @@
 
 	new /obj/item/clothing/accessory/armor/dermal(src)
 	new /obj/item/clothing/head/hos_peakedcap(src)
-	new /obj/item/clothing/head/hos_hat(src)
 	new /obj/item/device/remote_device/head_of_security(src)
 	new /obj/item/clothing/suit/armor/hos(src)
 	new /obj/item/clothing/under/rank/head_of_security(src)
