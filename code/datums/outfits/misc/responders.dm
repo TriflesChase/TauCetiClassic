@@ -154,8 +154,8 @@
 
 	implants = list(/obj/item/weapon/implant/dexplosive)
 
-	var/list/possible_kits = list(/obj/item/weapon/storage/backpack/dufflebag/nuke/assaultman, /obj/item/weapon/storage/backpack/dufflebag/nuke/scout, /obj/item/weapon/storage/backpack/dufflebag/nuke/hacker,\
-								/obj/item/weapon/storage/backpack/dufflebag/nuke/sniper, /obj/item/weapon/storage/backpack/dufflebag/nuke/demo, /obj/item/weapon/storage/backpack/dufflebag/nuke/heavygunner) //no medic, chem and custom
+	var/list/possible_kits = list(/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/assaultman, /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/scout, /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/hacker,\
+								/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/sniper, /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/demo, /obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/heavygunner) //no medic, chem and custom
 
 /datum/outfit/responders/gorlex_marauders/post_equip(mob/living/carbon/human/H)
 	var/obj/item/clothing/under/U = H.w_uniform
@@ -163,7 +163,7 @@
 		var/obj/item/clothing/accessory/storage/S = new /obj/item/clothing/accessory/storage/syndi_vest(U)
 		LAZYADD(U.accessories, S)
 		S.on_attached(U, H, TRUE)
-	var/obj/item/weapon/storage/backpack/dufflebag/nuke/N = pick(possible_kits)
+	var/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/N = pick(possible_kits)
 	H.equip_to_slot(new N(H), SLOT_L_HAND)
 
 /datum/outfit/responders/gorlex_marauders/leader
@@ -498,7 +498,7 @@
 	belt = /obj/item/weapon/storage/belt/security/tactical/marines
 	shoes = /obj/item/clothing/shoes/boots
 	l_ear = /obj/item/device/radio/headset/headset_sec/marinad
-	back = /obj/item/weapon/storage/backpack/dufflebag/marinad
+	back = /obj/item/weapon/storage/backpack/duffelbag/syndie/marinad
 
 	id = /obj/item/weapon/card/id/centcom/ert
 
