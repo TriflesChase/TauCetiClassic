@@ -10,7 +10,8 @@
 	/obj/item/weapon/storage/backpack, \
 	/obj/item/weapon/storage/backpack/alt, \
 	/obj/item/weapon/storage/backpack/satchel/norm, \
-	/obj/item/weapon/storage/backpack/satchel \
+	/obj/item/weapon/storage/backpack/satchel, \
+	/obj/item/weapon/storage/backpack/duffelbag \
 )
 
 // Departments
@@ -19,7 +20,8 @@
 	/obj/item/weapon/storage/backpack/security, \
 	/obj/item/weapon/storage/backpack/alt, \
 	/obj/item/weapon/storage/backpack/satchel/sec, \
-	/obj/item/weapon/storage/backpack/satchel \
+	/obj/item/weapon/storage/backpack/satchel, \
+	/obj/item/weapon/storage/backpack/duffelbag/sec \
 )
 
 #define BACKPACK_STYLE_ENGINEERING list( \
@@ -27,7 +29,8 @@
 	/obj/item/weapon/storage/backpack/industrial, \
 	/obj/item/weapon/storage/backpack/alt, \
 	/obj/item/weapon/storage/backpack/satchel/eng, \
-	/obj/item/weapon/storage/backpack/satchel \
+	/obj/item/weapon/storage/backpack/satchel, \
+	/obj/item/weapon/storage/backpack/duffelbag/engineering \
 )
 
 #define BACKPACK_STYLE_RESEARCH list( \
@@ -35,7 +38,8 @@
 	/obj/item/weapon/storage/backpack/backpack_tox, \
 	/obj/item/weapon/storage/backpack/alt/tox, \
 	/obj/item/weapon/storage/backpack/satchel/tox, \
-	/obj/item/weapon/storage/backpack/satchel \
+	/obj/item/weapon/storage/backpack/satchel, \
+	/obj/item/weapon/storage/backpack/duffelbag/science \
 )
 
 #define BACKPACK_STYLE_MEDICAL list( \
@@ -43,7 +47,8 @@
 	/obj/item/weapon/storage/backpack/medic, \
 	/obj/item/weapon/storage/backpack/alt, \
 	/obj/item/weapon/storage/backpack/satchel/med, \
-	/obj/item/weapon/storage/backpack/satchel \
+	/obj/item/weapon/storage/backpack/satchel, \
+	/obj/item/weapon/storage/backpack/duffelbag/med \
 )
 
 // jobs
@@ -52,7 +57,8 @@
 	/obj/item/weapon/storage/backpack/captain, \
 	/obj/item/weapon/storage/backpack/alt, \
 	/obj/item/weapon/storage/backpack/satchel/cap, \
-	/obj/item/weapon/storage/backpack/satchel \
+	/obj/item/weapon/storage/backpack/satchel, \
+	/obj/item/weapon/storage/backpack/duffelbag/captain \
 )
 
 #define BACKPACK_STYLE_HYDROPONIST list( \
@@ -60,7 +66,8 @@
 	/obj/item/weapon/storage/backpack/backpack_hyd, \
 	/obj/item/weapon/storage/backpack/alt/hyd, \
 	/obj/item/weapon/storage/backpack/satchel/hyd, \
-	/obj/item/weapon/storage/backpack/satchel \
+	/obj/item/weapon/storage/backpack/satchel, \
+	/obj/item/weapon/storage/backpack/duffelbag/hydroponics \
 )
 
 #define BACKPACK_STYLE_MIME list( \
@@ -68,7 +75,8 @@
 	/obj/item/weapon/storage/backpack/mime, \
 	/obj/item/weapon/storage/backpack/alt, \
 	/obj/item/weapon/storage/backpack/satchel/norm, \
-	/obj/item/weapon/storage/backpack/satchel \
+	/obj/item/weapon/storage/backpack/satchel, \
+	/obj/item/weapon/storage/backpack/duffelbag \
 )
 
 #define BACKPACK_STYLE_CHEMIST list( \
@@ -76,7 +84,8 @@
 	/obj/item/weapon/storage/backpack/backpack_chem, \
 	/obj/item/weapon/storage/backpack/alt/chem, \
 	/obj/item/weapon/storage/backpack/satchel/chem, \
-	/obj/item/weapon/storage/backpack/satchel \
+	/obj/item/weapon/storage/backpack/satchel, \
+	/obj/item/weapon/storage/backpack/duffelbag/chemistry \
 )
 
 #define BACKPACK_STYLE_GENETICIST list( \
@@ -84,7 +93,8 @@
 	/obj/item/weapon/storage/backpack/backpack_gen, \
 	/obj/item/weapon/storage/backpack/alt/gen, \
 	/obj/item/weapon/storage/backpack/satchel/gen, \
-	/obj/item/weapon/storage/backpack/satchel \
+	/obj/item/weapon/storage/backpack/satchel, \
+	/obj/item/weapon/storage/backpack/duffelbag/genetics \
 )
 
 #define BACKPACK_STYLE_VIROLOGIST list( \
@@ -92,5 +102,6 @@
 	/obj/item/weapon/storage/backpack/backpack_vir, \
 	/obj/item/weapon/storage/backpack/alt/vir, \
 	/obj/item/weapon/storage/backpack/satchel/vir, \
-	/obj/item/weapon/storage/backpack/satchel \
+	/obj/item/weapon/storage/backpack/satchel, \
+	/obj/item/weapon/storage/backpack/duffelbag/virology \
 )
