@@ -335,42 +335,116 @@
 
 	AddElement(/datum/element/undertile, TRAIT_T_RAY_VISIBLE, use_alpha = TRUE, use_anchor = TRUE)
 
-/obj/item/weapon/storage/backpack/dufflebag
-	name = "suspicious looking dufflebag"
+/obj/item/weapon/storage/backpack/duffelbag
+	name = "duffel bag"
 	cases = list("вещмешок", "вещмешка", "вещмешку", "вещмешок", "вещмешком", "вещмешке")
-	desc = "A large dufflebag for holding extra tactical supplies."
-	icon_state = "duffle-syndie"
-	item_state = "duffle-syndie"
-	origin_tech = "syndicate=1"
+	desc = "A large duffel bag for holding extra things."
+	icon_state = "duffel"
+	item_state = "duffel"
 	max_storage_space = DEFAULT_BACKPACK_STORAGE + 10
-	slowdown = 0.5
+	slowdown = 0.6
 
-/obj/item/weapon/storage/backpack/dufflebag/marinad
-	name = "marine dufflebag"
-	desc = "A large dufflebag for holding extra tactical supplies. Waterproof."
+/obj/item/weapon/storage/backpack/duffelbag/marinad
+	name = "marine duffelbag"
+	desc = "A large duffelbag for holding extra tactical supplies. Waterproof."
 	icon_state = "marinad"
-	item_state = "marinad_duffle"
-	origin_tech = ""
+	item_state = "marinad_duffel"
 
-/obj/item/weapon/storage/backpack/dufflebag/c4/atom_init()
+/obj/item/weapon/storage/backpack/duffelbag/captain
+	name = "captain's duffel bag"
+	desc = "A large duffel bag for holding extra captainly goods."
+	icon_state = "duffel-captain"
+	item_state = "duffel-captain"
+
+/obj/item/weapon/storage/backpack/duffelbag/med
+	name = "medical duffel bag"
+	desc = "A large duffel bag for holding extra medical supplies."
+	icon_state = "duffel-medical"
+	item_state = "duffel-med"
+
+/obj/item/weapon/storage/backpack/duffelbag/hydroponics
+	name = "hydroponic's duffel bag"
+	desc = "A large duffel bag for holding extra gardening tools."
+	icon_state = "duffel-hydroponics"
+	item_state = "duffel-hydroponics"
+
+/obj/item/weapon/storage/backpack/duffelbag/chemistry
+	name = "chemistry duffel bag"
+	desc = "A large duffel bag for holding extra chemical substances."
+	icon_state = "duffel-chemistry"
+	item_state = "duffel-chemistry"
+
+/obj/item/weapon/storage/backpack/duffelbag/genetics
+	name = "geneticist's duffel bag"
+	desc = "A large duffel bag for holding extra genetic mutations."
+	icon_state = "duffel-genetics"
+	item_state = "duffel-genetics"
+
+/obj/item/weapon/storage/backpack/duffelbag/science
+	name = "scientist's duffel bag"
+	desc = "A large duffel bag for holding extra scientific components."
+	icon_state = "duffel-science"
+	item_state = "duffel-sci"
+
+/obj/item/weapon/storage/backpack/duffelbag/virology
+	name = "virologist's duffel bag"
+	desc = "A large duffel bag for holding extra viral bottles."
+	icon_state = "duffel-virology"
+	item_state = "duffel-virology"
+
+/obj/item/weapon/storage/backpack/duffelbag/sec
+	name = "security duffel bag"
+	desc = "A large duffel bag for holding extra security supplies and ammunition."
+	icon_state = "duffel-security"
+	item_state = "duffel-sec"
+
+
+/obj/item/weapon/storage/backpack/duffelbag/engineering
+	name = "industrial duffel bag"
+	desc = "A large duffel bag for holding extra tools and supplies."
+	icon_state = "duffel-engineering"
+	item_state = "duffel-eng"
+
+/obj/item/weapon/storage/backpack/duffelbag/clown
+	name = "clown's duffel bag"
+	desc = "A large duffel bag for holding lots of funny gags!"
+	icon_state = "duffel-clown"
+	item_state = "duffel-clown"
+
+/obj/item/weapon/storage/backpack/duffelbag/clown/pie/atom_init()
+	. = ..()
+	for(var/i = 1 to 5)
+		new /obj/item/weapon/reagent_containers/food/snacks/pie(src)
+
+/obj/item/weapon/storage/backpack/duffelbag/syndie
+	name = "suspicious looking duffel bag"
+	desc = "A large duffel bag for holding extra tactical supplies. Can hold two bulky items!"
+	icon_state = "duffel-syndie"
+	item_state = "duffel-syndie"
+	origin_tech = "syndicate=1"
+	max_storage_space = DEFAULT_BACKPACK_STORAGE + 20
+	slowdown = 0.3
+
+/obj/item/weapon/storage/backpack/duffelbag/syndie/c4/atom_init()
 	. = ..()
 	for(var/i = 1 to 5)
 		new /obj/item/weapon/plastique(src)
 
-/obj/item/weapon/storage/backpack/dufflebag/med
-	name = "medical dufflebag"
+
+/obj/item/weapon/storage/backpack/duffelbag/syndie/med
+	name = "medical duffelbag"
 	desc = "A large dufflebag for holding extra tactical medical supplies."
-	icon_state = "duffle-syndiemed"
-	item_state = "duffle-syndiemed"
+	icon_state = "duffel-syndiemed"
+	item_state = "duffel-syndiemed"
 
-/obj/item/weapon/storage/backpack/dufflebag/surgery
-	name = "surgery dufflebag"
+
+/obj/item/weapon/storage/backpack/duffelbag/syndie/surgery
+	name = "surgery duffelbag"
 	desc = "A suspicious looking dufflebag for holding surgery tools."
-	icon_state = "duffle-syndiemed"
-	item_state = "duffle-syndiemed"
-	max_storage_space = DEFAULT_BACKPACK_STORAGE + 20
+	icon_state = "duffel-syndiemed"
+	item_state = "duffel-syndiemed"
 
-/obj/item/weapon/storage/backpack/dufflebag/surgery/atom_init()
+/obj/item/weapon/storage/backpack/dufflebag/syndie/surgery/atom_init()
 	. = ..()
 	new /obj/item/weapon/scalpel(src)
 	new /obj/item/weapon/hemostat(src)
@@ -398,7 +472,7 @@
 	desc = "Granted to the henchmen who deserve it. This probably doesn't include you."
 	icon_state = "henchmen"
 
-/obj/item/weapon/storage/backpack/dufflebag/cops
+/obj/item/weapon/storage/backpack/duffelbag/cops
 	name = "NanoTrasen bag"
 	desc = "A large duffel bag for holding extra NanoTrasen gear."
 	slowdown = 0
