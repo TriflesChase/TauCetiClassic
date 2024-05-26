@@ -326,7 +326,7 @@
 
 //loadouts
 
-/obj/item/weapon/storage/backpack/dufflebag/nuke/scout
+/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/scout
 	name = "scout kit"
 	startswith = list(
 	/obj/item/ammo_box/magazine/c20r/hv,
@@ -340,7 +340,7 @@
 	/obj/item/weapon/card/emag,
 	)
 
-/obj/item/weapon/storage/backpack/dufflebag/nuke/assaultman
+/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/assaultman
 	name = "assaultman kit"
 	startswith = list(
 	/obj/item/ammo_box/magazine/a74 = 3,
@@ -359,7 +359,7 @@
 	/obj/item/device/multitool,
 	/obj/item/device/flashlight/emp,)
 
-/obj/item/weapon/storage/backpack/dufflebag/nuke/hacker
+/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/hacker
 	name = "hacker kit"
 	startswith = list(
 	/obj/item/ammo_box/magazine/bulldog = 4,
@@ -373,7 +373,7 @@
 	/obj/item/weapon/card/emag,
 	)
 
-/obj/item/weapon/storage/backpack/dufflebag/nuke/sniper
+/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/sniper
 	name = "sniper kit"
 	startswith = list(
 	/obj/item/ammo_casing/a145 = 6,
@@ -385,7 +385,7 @@
 	/obj/item/weapon/grenade/smokebomb = 3,
 	)
 
-/obj/item/weapon/storage/backpack/dufflebag/nuke/demo
+/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/demo
 	name = "demolition and explosion kit"
 	startswith = list(
 	/obj/item/ammo_casing/r4046/explosive = 3,
@@ -397,7 +397,7 @@
 	/obj/item/device/radio/beacon/syndicate_bomb,
 	)
 
-/obj/item/weapon/storage/backpack/dufflebag/nuke/melee
+/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/melee
 	name = "melee weapon kit"
 	startswith = list(
 	/obj/item/weapon/dualsaber,
@@ -410,14 +410,14 @@
 	/obj/item/weapon/card/emag,
 	)
 
-/obj/item/weapon/storage/backpack/dufflebag/nuke/heavygunner
+/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/heavygunner
 	name = "heavy machine gunner kit"
 	startswith = list(
 	/obj/item/ammo_box/magazine/saw = 3,
 	/obj/item/weapon/gun/projectile/automatic/l6_saw,
 	)
 
-/obj/item/weapon/storage/backpack/dufflebag/nuke/medic
+/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/medic
 	name = "field medic kit"
 	startswith = list(
 	/obj/item/weapon/gun/medbeam/syndi,
@@ -429,7 +429,7 @@
 	)
 
 
-/obj/item/weapon/storage/backpack/dufflebag/nuke/chemwarfare
+/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/chemwarfare
 	name = "chemical fighter kit"
 	startswith = list(
 	/obj/item/weapon/reagent_containers/watertank_backpack/syndie,
@@ -445,7 +445,7 @@
 	)
 
 
-/obj/item/weapon/storage/backpack/dufflebag/nuke/custom
+/obj/item/weapon/storage/backpack/duffelbag/syndie/nuke/custom
 	name = "custom kit"
 	startswith = list(
 	/obj/item/device/radio/uplink,
