@@ -44,8 +44,8 @@
 	prob(20);/obj/item/weapon/storage/firstaid/small_firstaid_kit/combat,\
 	prob(20);/obj/item/weapon/pen/edagger,\
 	prob(20);/obj/item/device/encryptionkey/binary,\
-	prob(25);/obj/item/weapon/storage/backpack/dufflebag/surgery,\
-	prob(25);/obj/item/weapon/storage/backpack/dufflebag/c4,\
+	prob(25);/obj/item/weapon/storage/backpack/duffelbag/syndie/surgery,\
+	prob(25);/obj/item/weapon/storage/backpack/duffelbag/syndie/c4,\
 	prob(25);/obj/item/weapon/reagent_containers/syringe/mulligan,\
 	prob(25);/obj/item/device/flashlight/emp,\
 	prob(25);/obj/item/ammo_box/magazine/bulldog,\
