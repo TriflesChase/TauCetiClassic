@@ -54473,6 +54473,7 @@
 /obj/structure/closet/theatrecloset,
 /obj/random/randomtoy,
 /obj/item/clothing/gloves/rainbow,
+/obj/item/weapon/storage/backpack/duffelbag/clown/pie,
 /obj/item/device/radio/intercom{
 	name = "Station Intercom (General)";
 	pixel_y = -32

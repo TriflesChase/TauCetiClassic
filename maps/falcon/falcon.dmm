@@ -4564,6 +4564,7 @@
 /obj/machinery/light/small,
 /obj/item/clothing/gloves/rainbow,
 /obj/random/randomtoy,
+/obj/item/weapon/storage/backpack/duffelbag/clown/pie,
 /turf/simulated/floor/wood,
 /area/station/civilian/theatre)
 "aid" = (

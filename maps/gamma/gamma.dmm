@@ -117870,6 +117870,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/item/weapon/storage/backpack/duffelbag/clown/pie,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},

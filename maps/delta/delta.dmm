@@ -28380,6 +28380,7 @@
 	dir = 1;
 	pixel_y = -22
 	},
+/obj/item/weapon/storage/backpack/duffelbag/clown/pie,
 /turf/simulated/floor{
 	icon_state = "redbluefull"
 	},
