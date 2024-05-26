@@ -176,7 +176,7 @@
 			prob(10);/obj/item/weapon/storage/backpack/cultpack,\
 			prob(10);/obj/item/weapon/storage/backpack/clown,\
 			prob(10);/obj/item/weapon/storage/backpack/mime,\
-			prob(1);/obj/item/weapon/storage/backpack/dufflebag,\
+			prob(1);/obj/item/weapon/storage/backpack/duffelbag,\
 			prob(10);/obj/item/weapon/storage/backpack/medic,\
 			prob(10);/obj/item/weapon/storage/backpack/industrial,\
 			prob(8);/obj/item/weapon/storage/backpack/security\
