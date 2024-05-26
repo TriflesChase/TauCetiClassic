@@ -201,7 +201,7 @@
 		i_state = "armor"
 	else if(istype(back, /obj/item/weapon/storage/backpack/satchel))
 		i_state = "satchel"
-	else if(istype(back, /obj/item/weapon/storage/backpack/dufflebag))
+	else if(istype(back, /obj/item/weapon/storage/backpack/duffelbag))
 		i_state = "duffbag"
 
 	body_icon = image("icon" = 'icons/mob/corgi_back.dmi', "icon_state" = i_state, "layer" = -LAYERIAN_BACK)
