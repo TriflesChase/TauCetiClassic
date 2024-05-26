@@ -29,6 +29,7 @@
 		new /obj/item/clothing/shoes/boots(src)
 	for (var/i in 1 to 3)
 		new /obj/item/clothing/head/sec_peakedcap(src)
+	new /obj/item/weapon/storage/backpack/duffelbag/sec
 	if(SSenvironment.envtype[z] == ENV_TYPE_SNOW)
 		for (var/i in 1 to 3)
 			new /obj/item/clothing/head/santa(src)
@@ -60,6 +61,8 @@
 		new /obj/item/clothing/suit/jacket/leather/overcoat(src)
 	for (var/i in 1 to 3)
 		new /obj/item/clothing/shoes/black(src)
+	if(prob(20))
+		new /obj/item/weapon/storage/backpack/duffelbag
 	if(SSenvironment.envtype[z] == ENV_TYPE_SNOW)
 		for (var/i in 1 to 3)
 			new /obj/item/clothing/suit/hooded/wintercoat(src)
@@ -172,6 +175,7 @@
 		new /obj/item/clothing/under/rank/engineer(src)
 	for (var/i in 1 to 3)
 		new /obj/item/clothing/shoes/boots/work(src)
+	new /obj/item/weapon/storage/backpack/duffelbag/engineering
 	for(var/i = 1 to 3)
 		if(prob(75))
 			new /obj/item/clothing/head/hardhat/yellow(src)
@@ -225,6 +229,8 @@
 	for (var/i in 1 to 3)
 		new /obj/item/clothing/shoes/white(src)
 	for (var/i in 1 to 3)
+		new /obj/item/weapon/storage/backpack/duffelbag/science
+	for (var/i in 1 to 3)
 		new /obj/item/clothing/shoes/slippers(src)
 
 
@@ -263,6 +269,8 @@
 	for (var/i in 1 to 2)
 		new /obj/item/clothing/shoes/white(src)
 	for (var/i in 1 to 2)
+		new /obj/item/weapon/storage/backpack/duffelbag/chemistry
+	for (var/i in 1 to 2)
 		new /obj/item/clothing/suit/storage/labcoat/chemist(src)
 	for (var/i in 1 to 2)
 		new /obj/item/weapon/storage/bag/chemistry(src)
@@ -280,6 +288,8 @@
 		new /obj/item/clothing/under/rank/geneticist/skirt(src)
 	for (var/i in 1 to 2)
 		new /obj/item/clothing/shoes/white(src)
+	for (var/i in 1 to 2)
+		new /obj/item/weapon/storage/backpack/duffelbag/genetics
 	for (var/i in 1 to 2)
 		new /obj/item/clothing/suit/storage/labcoat/genetics(src)
 	if(SSenvironment.envtype[z] == ENV_TYPE_SNOW)
@@ -301,6 +311,8 @@
 		new /obj/item/clothing/under/rank/virologist/skirt(src)
 	for (var/i in 1 to 2)
 		new /obj/item/clothing/shoes/white(src)
+	for (var/i in 1 to 2)
+		new /obj/item/weapon/storage/backpack/duffelbag/virology
 	for (var/i in 1 to 2)
 		new /obj/item/clothing/suit/storage/labcoat/virologist(src)
 	for (var/i in 1 to 2)
@@ -330,6 +342,8 @@
 	for (var/i in 1 to 2)
 		new /obj/item/clothing/shoes/white(src)
 	for (var/i in 1 to 2)
+		new /obj/item/weapon/storage/backpack/duffelbag/med
+	for (var/i in 1 to 2)
 		new /obj/item/clothing/suit/storage/labcoat(src)
 	for (var/i in 1 to 2)
 		new /obj/item/clothing/mask/surgical(src)
@@ -352,6 +366,8 @@
 		new /obj/item/clothing/shoes/black(src)
 	for (var/i in 1 to 3)
 		new /obj/item/clothing/head/soft/grey(src)
+	if(prob(25))
+		new /obj/item/weapon/storage/backpack/duffelbag
 	if(SSenvironment.envtype[z] == ENV_TYPE_SNOW)
 		for (var/i in 1 to 2)
 			new /obj/item/clothing/suit/hooded/wintercoat(src)
@@ -410,12 +426,13 @@
 
 /obj/structure/closet/wardrobe/tactical/PopulateContents()
 	new /obj/item/device/radio/headset/headset_sec/marinad(src)
-	new /obj/item/weapon/storage/backpack/dufflebag/marinad(src)
+	new /obj/item/weapon/storage/backpack/duffelbag/marinad(src)
 	new /obj/item/clothing/gloves/security/marinad(src)
 	new /obj/item/clothing/head/helmet/tactical/marinad(src)
 	new /obj/item/clothing/suit/marinad(src)
 	new /obj/item/clothing/under/tactical/marinad(src)
 	new /obj/item/clothing/glasses/sunglasses/hud/sechud/tactical(src)
+	new /obj/item/weapon/storage/backpack/duffelbag/syndie
 	new /obj/item/weapon/storage/belt/security/tactical(src)
 	new /obj/item/weapon/kitchenknife/combat(src)
 	new /obj/item/clothing/shoes/boots/work(src)
