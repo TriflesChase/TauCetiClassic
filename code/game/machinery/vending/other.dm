@@ -259,7 +259,7 @@
 		/obj/item/weapon/storage/pouch/ammo = 6,
 		/obj/item/clothing/accessory/holster/armpit = 6,
 		/obj/item/device/hud_calibrator = 6,
-		/obj/item/weapon/storage/backpack/dufflebag = 3,
+		/obj/item/weapon/storage/backpack/duffelbag/syndie = 3,
 		/obj/item/weapon/storage/fancy/cigarettes/cigpack_syndicate = 2,
 	)
 	contraband = list(
